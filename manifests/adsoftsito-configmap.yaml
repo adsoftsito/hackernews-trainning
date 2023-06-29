@@ -1,3 +1,4 @@
+# .env
 apiVersion: v1
 kind: ConfigMap
 metadata:
