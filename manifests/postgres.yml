@@ -6,7 +6,7 @@ metadata:
     app: adsoft-postgres
 spec:
   ports:
-  - port: 5432
+  - port: 5433
     name: db
   type: ClusterIP  
   selector:
@@ -33,7 +33,7 @@ spec:
         image: postgres:14
         imagePullPolicy: "IfNotPresent"
         ports:
-        - containerPort: 5432
+        - containerPort: 5433
           name: db
         env:
         - name: PGDATA
