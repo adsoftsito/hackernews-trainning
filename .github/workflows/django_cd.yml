@@ -57,8 +57,8 @@ jobs:
     - name: Deploy
       uses: okteto/pipeline@2.7.0
       with:
-         name: hackernews-graphql
-         timeout: 5m
+         name: hackernews-trainning
+         timeout: 10m
          #variables: "DEV_USER=${{ secrets.DEV_USER }}"
 
 #    - name: Verify
