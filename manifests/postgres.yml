@@ -6,7 +6,7 @@ metadata:
     app: adsoft-postgres
 spec:
   ports:
-  - port: 5433
+  - port: 5432
     name: db
   type: ClusterIP  
   selector:
